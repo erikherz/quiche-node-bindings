@@ -1,0 +1,13 @@
+[package]
+name = "quiche-node-bindings"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+napi = "2"
+napi-derive = "2"
+quiche = { path = "../quiche/quiche" }
+
+[lib]
+crate-type = ["cdylib"]
+
