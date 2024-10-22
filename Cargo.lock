@@ -189,6 +189,8 @@ dependencies = [
 [[package]]
 name = "octets"
 version = "0.3.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "109983a091271ee8916076731ba5fdc9ee22fea871bc7c6ceab9bfd423eb1d99"
 
 [[package]]
 name = "once_cell"
@@ -208,6 +210,8 @@ dependencies = [
 [[package]]
 name = "quiche"
 version = "0.22.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "28e5a763fecb47867bd3720f69ec87031ff42fda1dc88be2cb5fbb3a558fa5e4"
 dependencies = [
  "cmake",
  "either",
@@ -227,6 +231,7 @@ dependencies = [
 name = "quiche-node-bindings"
 version = "0.1.0"
 dependencies = [
+ "log",
  "napi",
  "napi-derive",
  "quiche",
