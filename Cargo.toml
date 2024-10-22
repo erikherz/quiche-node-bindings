@@ -6,8 +6,8 @@ edition = "2018"
 [dependencies]
 napi = "2"
 napi-derive = "2"
-quiche = { path = "../quiche/quiche" }
+quiche = "0.22.0"  # Use the latest stable version from crates.io
+log = "0.4"
 
 [lib]
 crate-type = ["cdylib"]
-
